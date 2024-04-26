@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1faee"
+
+    tools:context=".MainActivity"
+
+    >
+
+    <AbsoluteLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="392dp">
+
+        <ImageView
+            android:id="@+id/ivr"
+            android:layout_width="82dp"
+            android:layout_height="104dp"
+            android:layout_x="250dp"
+            android:layout_y="115dp"
+            app:srcCompat="@drawable/r" />
+
+        <ImageView
+            android:id="@+id/ivl"
+            android:layout_width="94dp"
+            android:layout_height="113dp"
+            android:layout_x="20dp"
+            android:layout_y="114dp"
+            app:srcCompat="@drawable/l" />
+
+        <ImageView
+            android:id="@+id/ivu"
+            android:layout_width="87dp"
+            android:layout_height="79dp"
+            android:layout_x="146dp"
+            android:layout_y="14dp"
+            app:srcCompat="@drawable/u" />
+
+        <ImageView
+            android:id="@+id/ivd"
+            android:layout_width="84dp"
+            android:layout_height="98dp"
+            android:layout_x="146dp"
+            android:layout_y="242dp"
+            app:srcCompat="@drawable/d" />
+
+        <ImageView
+            android:id="@+id/ivs"
+            android:layout_width="83dp"
+            android:layout_height="82dp"
+            android:layout_x="146dp"
+            android:layout_y="129dp"
+            app:srcCompat="@drawable/s" />
+
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/btnu"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_x="38dp"
+
+        android:layout_y="346dp"
+
+        android:backgroundTint="#E63946"
+        android:text="Window Up"
+        android:textAlignment="center"
+        android:textColor="#fafafa"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/btnd"
+        android:layout_width="382dp"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_x="38dp"
+
+        android:layout_y="346dp"
+
+        android:backgroundTint="#E63946"
+        android:text="Window Down"
+        android:textAlignment="center"
+        android:textColor="#fafafa"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="323dp"
+
+        android:text="Data"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vehicle_Accident_App</string>
+    <string name="GPSAlertDialogTitle">Location Alert</string>
+    <string name="GPSAlertDialogMessage">Allow Gps Location from Settings.</string>
+    <string name="cancel">Cancel</string>
+    <string name="allow">Allow</string>
+    <string name="hello_world">Welcome!</string>
+    <string name="action_settings">Settings</string>
+</resources>
